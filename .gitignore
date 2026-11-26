@@ -1,0 +1,24 @@
+# File rác hệ thống Windows & Google Drive (chặn sạch ở cả thư mục con)
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
+
+# Cache Python & Jupyter Notebook
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Môi trường ảo (nếu sau này anh tạo thêm)
+.venv/
+venv/
+env/
+
+# Cấu hình IDE (PyCharm / VS Code)
+.idea/
+.vscode/
+
+# File nén tạm (bỏ dấu # ở dưới nếu anh không muốn đẩy file .zip lên)
+# *.zip
+
+TT/
