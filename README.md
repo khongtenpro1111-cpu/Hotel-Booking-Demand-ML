@@ -87,8 +87,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib jupyter
 ```
 
 ### Chạy Notebook thực nghiệm
-Mở file `DT08_Hotel_Booking_Demand_Cancellation_Pipeline.ipynb` bằng **PyCharm**, **VS Code** hoặc **Jupyter Notebook** và chạy lần lượt các cell.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/khongtenpro1111-cpu/Hotel-Booking-Demand-ML/blob/main/DT08_Hotel_Booking_Demand_Cancellation_Pipeline.ipynb)
+
+- **Chạy trên Google Colab (Khuyên dùng):** Bấm trực tiếp nút **Open in Colab** ở trên (hoặc upload file `.ipynb` lên Colab), kiểm tra lại đường dẫn lưu/đọc file (như Google Drive nếu dùng) rồi chạy lần lượt từng cell.
+- **Chạy trên máy cá nhân (Local):** Mở file `DT08_Hotel_Booking_Demand_Cancellation_Pipeline.ipynb` bằng **VS Code**, **PyCharm** hoặc **Jupyter Notebook** và chạy lần lượt các cell.
 ### Tải lại mô hình đã huấn luyện bằng `joblib`
 ```python
 import joblib
